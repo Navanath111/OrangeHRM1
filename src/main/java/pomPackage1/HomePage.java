@@ -18,7 +18,8 @@ public class HomePage
 			            login.enterPassword("admin123");
 			            login.ClickonLoginButton();
 			            
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.quit();
+		
     }
 }
